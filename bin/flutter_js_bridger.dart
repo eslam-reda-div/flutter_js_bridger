@@ -1,11 +1,11 @@
 /// CLI tool for managing npm packages declaratively.
 ///
-/// Usage: dart run flutter_js_bridger <command> [arguments]
+/// Usage: `dart run flutter_js_bridger [command] [arguments]`
 ///
 /// Commands:
 ///   init                    Create a new js_bridger.json manifest
-///   add <pkg>[@version]     Add a package and install it
-///   remove <pkg>            Remove a package
+///   add `pkg[@version]`     Add a package and install it
+///   remove `pkg`            Remove a package
 ///   install                 Install all packages from the manifest
 ///   update [pkg]            Update packages (all or specific)
 ///   list                    Show declared vs installed packages
@@ -96,7 +96,7 @@ Future<void> _init(List<String> args) async {
   _success('Created ${JsBridgerManifest.defaultFileName}');
 }
 
-/// `add <pkg>[@version]` — Add a package to the manifest and install it.
+/// `add pkg[@version]` — Add a package to the manifest and install it.
 Future<void> _add(List<String> args) async {
   if (args.isEmpty) {
     _error('Usage: dart run flutter_js_bridger add <package>[@version]');
@@ -142,7 +142,7 @@ Future<void> _add(List<String> args) async {
   _info('Saved ${JsBridgerManifest.defaultFileName}');
 }
 
-/// `remove <pkg>` — Remove a package from the manifest and uninstall it.
+/// `remove pkg` — Remove a package from the manifest and uninstall it.
 Future<void> _remove(List<String> args) async {
   if (args.isEmpty) {
     _error('Usage: dart run flutter_js_bridger remove <package>');

@@ -1,10 +1,8 @@
 name: flutter_js_bridger
 description: >-
-  Universal JavaScript Bridge for Flutter & Dart — Use any npm package
-  directly in your Flutter/Dart projects on any platform (Desktop, Web,
-  iOS, Android). Seamlessly call JavaScript functions, access objects,
-  and manage npm packages from Dart.
-version: 2.0.0
+  Universal JavaScript bridge for Flutter & Dart. Use any npm package directly
+  in your projects on any platform (Desktop, Web, iOS, Android).
+version: 2.0.1
 homepage: https://github.com/eslam-reda-div/flutter_js_bridger
 repository: https://github.com/eslam-reda-div/flutter_js_bridger
 issue_tracker: https://github.com/eslam-reda-div/flutter_js_bridger/issues

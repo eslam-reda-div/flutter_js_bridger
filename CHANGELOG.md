@@ -1,3 +1,8 @@
+## 2.0.1
+
+- Shortened package description to meet pub.dev guidelines
+- Fixed angle bracket lint warnings in CLI doc comments
+
 ## 2.0.0
 
 - Added `createFunction()` API for creating JS functions without eval
