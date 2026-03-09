@@ -1,0 +1,5 @@
+# QuickJS source (download separately)
+quickjs-src/
+
+# Build output
+build/

@@ -1,0 +1,26 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Test artifacts
+.test_npm_packages/
+.test_manifest_init/
+
+# Node
+node_modules/
+package-lock.json
+
+# Example build artifacts
+example/.dart_tool/
+example/pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
