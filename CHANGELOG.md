@@ -1,3 +1,14 @@
+## 2.0.0
+
+- Added `createFunction()` API for creating JS functions without eval
+- Added `getGlobal()` / `setGlobal()` for globalThis access
+- Hybrid proxy approach — Dart callbacks passed directly to JS
+- Promise-returning callback support
+- `$new`, `$has`, `$typeof`, `$get`, `$set`, `$toJson`, `$keys` helper methods on JsObject
+- Eliminated all eval usage from internal APIs
+- 7 example files demonstrating Express, WebSocket, JWT, SQLite, lodash/ramda, dayjs/moment, zod/joi
+- 14 comprehensive npm package test suites (338 tests)
+
 ## 1.0.0
 
 - Initial release
